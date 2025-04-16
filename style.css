@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+.master{
+    padding: 3% 10%;
+    background-color: #f7f7f7;
+    height: fit-content;
+}
+.home{
+    background-color: #fff;
+    box-shadow: 0.20px 1px 4px   black;
+    padding: 0 10px;
+    height: 450vh;
+}
+.homepage-img img{
+    width:100%;
+    height: 45vh;
+}
+.Notification-and-Marquee-link{
+    display: flex;
+    border: 1px solid #2d3192;
+    padding: 10px 0;
+    border-radius: 5px;
+    font: 24px;
+    font-weight: 600;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 40px;
+}
+.Notification-and-Marquee-link marquee{
+    margin: 0 30px;
+}
+.Nav{
+    margin-bottom: 40px;
+    
+}
+.Nav a{
+    margin-left: 15px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family:Arial, Helvetica, sans-serif;
+    border: 1px solid #2d3192;
+    padding: 20px 50px;
+    color: black;
+    justify-content:center ;
+    border-radius: 5px;
+}
+.Main-pages{
+    display: flex;
+}
+.page-links .lekki-headmaster-summary,
+.page-links .solutions-to-profile-code-issues,
+.page-links .JAMB,
+.page-links .GAMBIA-WASSCE-2025-QUESTION-AND-ANSWERS,
+.page-links .GHANA-WASSCE-2025-QUESTION-AND-ANSWERS,
+.page-links .PRIVATE-WASSCE-2024-SECOND-SERIES-QUESTION-AND-ANSWERS,
+.page-links .NECO-2024-FURTHER-MATHEMATICS-SOLUTIONS,
+.page-links .NECO-2024-GEOGRAPHY-QUESTIONS,
+.page-links .NECO-2024-PHYSICS-PRACTICAL-QUESTIONS,
+.page-links .NECO-2024-BIOLOGY-PRACTICAL-QUESTIONS
+{
+    display: flex;
+    border: 2px solid #2d3192;
+    width: 85%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    height: 9%;
+}
+.page-writeup{
+    width: 100%;
+    margin-left: 20px;
+}
+.topic-writeup p{
+    font-size: 14px;
+    font-family: sans-serif;
+    line-height: 23px;
+}
+.page-writeup .topics{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+.page-links .page-img a{
+
+    border-radius: 5px;
+    padding: 1px 1px;
+    height: 50%;
+}
+.page-img img{
+    border: 2px solid #2d3192;
+    /* width: 100%;
+    height: 100%; */
+}
+.date-and-acc{
+    margin: 10px 0;
+}
